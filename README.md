@@ -7,4 +7,5 @@ Based on Ubuntu:Latest, provides:
 * build-essential
 * Doxygen
 * Cppcheck
+* GCov and LCov
 

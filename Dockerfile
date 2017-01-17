@@ -3,7 +3,7 @@ FROM ubuntu:latest
 MAINTAINER Joe Balough, <jbb5044@gmail.com>
 
 RUN apt-get update
-RUN apt-get install -y build-essential libpcre3-dev curl python python-pygments
+RUN apt-get install -y build-essential libpcre3-dev curl python python-pygments lcov
 RUN apt-get install -y vim doxygen graphviz
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 
